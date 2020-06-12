@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Everardo</title>
+</head>
+<body>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="wrapper">
+            <div class="content">
+                <h1>My name is <span>Everardo</span></h1>
+                <h2>A young progressive web developer</h2>
+                <p>
+                    I am a <span id="age">20</span>-year-old web developer that currently attends the University of Illinois at Chicago majoring in 
+                    Business Information Systems with a minor in Computer Science. A young individual from Chicago, Illinois 
+                    with a passion for technology and enthralled by the discoveries constantly being made in the field of technology.
+                </p>
+                <p>Always come back to check out the new updates I make. Learning more each day to add to here.</p>
+            </div>
+            <img src="/images/Profile.png" alt="">
+        </div>
+        <div class="media">
+            <div class="box">
+                <a href="#">
+                    <img src="images/twitter.svg" alt="twitter">
+                    <p>#100DaysOfCode</p>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <img src="images/linked.svg" alt="linkedin">
+                    <p>Profile</p>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <img src="images/github.svg" alt="github">
+                    <p>Projects</p>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                    <img src="images/gmail.svg" alt="gmail">
+                    <p>gut.everardo<br>@gmail.com</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- My Skills -->
+    <div class="skills">
+        <h2>Technical Skills</h2>
+        <div class="row">
+            <div class="box-blue">
+                <img src="/images/html.svg" alt="html">
+            </div>
+            <div class="box-blue">
+                <img src="/images/css.svg" alt="css">
+            </div>
+            <div class="box-blue">
+                <img src="/images/js.svg" alt="javascript">
+            </div>
+            <div class="box-blue">
+                <img src="/images/cplus.svg" alt="c++">
+            </div>
+        </div>
+    </div>
+
+    <!-- My Projects -->
+    <div class="projects">
+        <h2>Projects</h2>
+        <div class="projs">
+            <div class="proj">
+                <img src="/projs/Companies.png" alt="FalcoCode">
+                <span><a href="https://dazzling-mccarthy-8caed5.netlify.app/" target="_blank">View</a></span>
+            </div>
+            <div class="proj">
+                <img src="/projs/Cafe-Chi.png" alt="Cafe-Chi">
+                <span><a href="https://optimistic-rosalind-b60f9b.netlify.app/" target="_blank">View</a></span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<script>
+    let tag = document.getElementById('age');
+    let curAge = new Date();
+    let ourAge = new Date(1999, 6, 14);
+    let diff = curAge - ourAge;
+    let weeks = (diff / (1000*60*60*24*7));
+    tag.innerHTML = Math.trunc(weeks*0.019165);
+</script>
