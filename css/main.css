@@ -108,7 +108,6 @@ h1, h2, p {
 
 .skills .row .box-blue:hover {
   background-color: #9a073c;
-  cursor: pointer;
 }
 
 .projects {
@@ -144,8 +143,10 @@ h1, h2, p {
 
 .projects .proj span {
   position: absolute;
-  top: 35%;
-  left: 42.5%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   display: none;
 }
 
