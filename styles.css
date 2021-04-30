@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    text-align: center;
+    font-family: Montserrat;
+}
+section{
+    padding: 7% 15%;
+}
+#home{
+    background-color: #EAF6F6;
+}
+h1, h2, h3{
+    color: #66BFBF;
+}
+p{
+    max-width: 500px;
+    margin: 3rem auto;
+    line-height: 1.5;
+}
+#home img{
+    width: 80%;
+    max-width: 300px;
+    margin: 5rem auto;
+}
+#main img{
+    width: 20vh;
+    border-radius: 100%;
+}
+#portfolio{
+    background-color: #66BFBF;
+}
+#portfolio h2{
+    color: white;
+}
+.grid{
+    display: grid;
+    grid-gap: 2rem;
+    justify-items: center;
+    margin: 0;
+    margin-top: 2rem;
+    padding: 0;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr));
+}
+.item{
+    border: 2px solid white;
+    width: 400px;
+    color: white;
+}
+.item img{
+    width: 100%;
+}
+.webbtn{
+    background-color: goldenrod;
+    text-decoration: none;
+    color: white;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    transition: all .3s;
+    padding: 1rem 1rem;
+}
+.webbtn:hover{
+    background-color: rgb(228, 180, 61);
+    color: white;
+}
+.btn-primary{
+    background-color: #66BFBF;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #64d8d8;
+}
+footer{
+    padding: 3.5% 15%;
+    background-color: #66BFBF;
+}
+footer p{
+    color: #EAF6F6;
+    margin-top: 2rem;
+}
+ul{
+   padding: 0;
+   display: flex;
+   width: 50%;
+   max-width: 500px;
+   justify-content: space-evenly;
+   margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+a{
+    color: #1c5b5e;
+}
